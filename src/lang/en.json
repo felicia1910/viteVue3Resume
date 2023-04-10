@@ -1,0 +1,176 @@
+{   
+    "Me":{
+        "name":"Felicia",
+        "degree":"Front-end Engineer",
+        "position":"Taipei, Tawian",
+        "text":"From Graphic design to Web design, now is a Front-end engineer, going to learn some backend skills this year."
+    },
+    "lang":{
+        "en":"English",
+        "tw":"Chinese"
+    },
+    "PicAlt":"Picture",
+    "About": {
+        "Skill": {
+            "name":"Skill",
+            "ui":{
+                "name": "Photoshop/ illustrator/ XD",
+                "text": "I major in Graphic design, can use the different tool in the different requirement.Use AdobeXD design web or App,or use illustrator design icon,or use Photoshop photo retouching."
+            },
+            "html":{
+                "name": "HTML5/ CSS3/ JavaScript",
+                "text": "Proficient understanding of web markup, including HTML5, PUG, CSS3, SCSS, and javascript."
+            },
+            "dev":{
+                "name": "React/ Redux/ Node.js/ Vue/ Vuex/ Vite",
+                "text": "4+ years of experience in various JavaScript frameworks, such as Node, ReactJS, Redux, Vue, Vuex, and familiarity with REST APIs."
+            },
+            "other":{
+                "name": "SocketIO/ NodeJs",
+                "text": "Have a litte try."
+            }
+
+        },
+        "LanguageAbility":{
+            "name":"Language Ability",
+            "ch":"Chinese level",
+            "en":"English level"
+        },
+        "Education":{
+            "name":"Education",
+            "school":"National Dong Hwa University",
+            "major":"Bachelor of Fine Arts",
+            "degree":"Bachelor degree",
+            "viceMajor":"Miror in teacher education program"
+        },
+        "Introduce":{
+            "name":"Introduce",
+            "text":{
+                "fir":"Before becoming a Front-End Engineer, I was a graphic designer, but the challenge was not enough for me in graphic design. So, I tried to learn about programming language. When I learned more about this knowledge, I hoped I could change my career to be a Front-End Engineer. In July 2018, I started to study Front-End in institute for information industry. I was frustrating in learning Ul, UX and Front-End at the beginning. However, I was interesting about the wild range of information and keeping learning new skills of coding in progress. After studying hard, I knew how to organize the coding structure and function to build the website.",
+                "sec":"I hoped I could cooperate with workmates to increase multiple development on my projects, and I finished the work with professional and flexible knowledge in the future.",
+                "thir":"After gradation form institute for information industry, I become the first Front-End Engineer who am working in Cloudnifier which is one of Microsoft partner company, in charge of UL design, discuss UX with colleague, translate the UL/UX designs, wireframes into high-quality code, and integrating the fronted UL with the constructed API. Also, this company has no limited to the employees’ working process, so I can use different JavaScript frameworks in various projects to let me learn more experience.",
+                "four":"Because the fields update very quickly, I make a schedule once a year for study, and I decide to learn Vue3.0 in two to three mouths. After all, I will learn some Node.js of Back-End technology, Nuxt, or automation of Front-End. Even though it is hard to keep learning new skills for new technology revolution, I have a sense of accomplishment through learning new knowledge. So, I will keep going and do my best in my future."
+            }
+        },
+        "License":{
+            "name":"License"
+        },
+        "Experience":{
+            "name":"Experience",
+            "fir":{
+                "name":"Chieng Kang Enterprise",
+                "degree":"I was a intern of Graphic designer."
+            },
+            "sec":{
+                "name":"SinPu Elementary School",
+                "degree":"I was a teacher, teaching anything I can teach."
+            },
+            "thir":{
+                "name":"HAPPY SHOPPING CO",
+                "degree":"I was a Graphic designer, design banner or photo retouching."
+            },
+            "four":{
+                "name":"Cloudnifier",
+                "degree":"I am a front-end engineer, responsible for the company's UI, and serial API."
+            }
+        },
+        "Contact":{
+            "name":"Contact me"
+        }
+    },
+    "Profile":{
+        "Catorge":{
+            "All":"All",
+            "Web":"Web Design",
+            "Imitate":"Web Imitate",
+            "Testing":"Function Testing",
+            "Design":"Graphic Design"
+        },
+        "Datail":{
+            "UI":"UI Design",
+            "FrontEnd":"FrontEnd",
+            "BackEnd":"BackEnd",
+            "Plugin":"Plugin",
+            "Color":"Color Match",
+            "Team":"Team",
+            "Technology":"Technology",
+            "Click":"Click Here",
+            "Previous":"Previous Page"
+        },
+        "All":{
+            "Automated":{
+                "name":"FlowChart",
+                "sum":"FlowChart project，User can control this webSide to achieve automation schedule.",
+                "int":"Design the Ui, translate the UI/UX designs and wireframes into code is all do it by myself, Because is a B2B project, so it only can show the frontEnd, the data should be come from backend all change into hardcode.",
+                "color":"Navy blue is used as the main color, because it is for users to operate in the background, so I choose a blue that is less disgusting, intellectual and calming, coupled with a versatile pure white, and the components are selected in various contrasting colors with high chroma and high brightness , so that users can intuitively understand and operate."
+            },
+            "Form":{
+                "name":"Form",
+                "sum":"Testing what is differences between Vue 2 and Vue 3.",
+                "int":"One of the company project, Because is a B2B project, so it only can show the frontEnd, the data should be come from backend all change into hardcode.This project that me make sure Vue 3 some expected upgrades turn into a reality. The expected means that it makes our application smaller, faster, and more powerful."
+            },
+            "Cloudnifier":{
+                "name":"Cloudnifier",
+                "sum":"Company website for testing, is not the final website.",
+                "int":"Design the Ui, translate the UI/UX designs and wireframes into code, is company website for testing, is not the final website."
+            },
+            "Chatroom":{
+                "name":"Chatroom",
+                "sum":"Testing nodejs,useing socketIo,try to make a chatroom.",
+                "int":"Testing."
+            },
+            "liteOn":{
+                "name":"liteOn",
+                "sum":"Use ReactJs to do a web.",
+                "int":"One of the company project, Because is a B2B project, so it only can show the frontEnd, the data should be come from backend all change into hardcode. Design the Ui, translate the UI/UX designs and wireframes into code is all do it by myself."
+            },
+            "AnimalSINGLE50":{
+                "name":"Animal SINGLE50",
+                "sum":"Your pet are lonely when you are not at home, you should let your pet use this online dating to meet new friend!",
+                "int":"In my opinion, pet are too lonely in the house, so I make this web.",
+                "color":"The blue tone represents stability and calmness, and the purple tone is because of the little passion of the red tone. The two tones can be said to be similar colors but have a sense of conflict. When two colors are mixed, they are similar colors on the color wheel, so there is a sense of stability with coordination."
+            },
+            "WooderfulLife":{
+                "name":"Wooderful Life",
+                "sum":"Team work with my classmate",
+                "int":"The final project in Institute for Information Industry, this is a team project.",
+                "color":"Colors can arouse emotions and generate associations. The colors of our website are mainly based on these four colors, followed by low-key white, matcha green, tranquil gray and the most representative main color of this website - clown fish orange . The choice of clownfish orange is to use the most trademarked wooden product of Zhiyin Wenchuang as the prototype, which is close to the wooden texture but still cute, and then matcha green, which is two shades different from the clownfish orange, is used as the main color To pull the heat of clownfish orange, make the whole site interesting but not boring."
+            },
+            "Manager":{
+                "name":"Manager",
+                "sum":"Web Imitate.",
+                "int":"Web Imitate."
+            },
+            "GravityDaze":{
+                "name":"GravityDaze",
+                "sum":"Web Imitate.",
+                "int":"Web Imitate."
+            },
+            "Livetools":{
+                "name":"Livetools",
+                "sum":"Web Imitate.",
+                "int":"Web Imitate."
+            },
+            "WheatherBox":{
+                "name":"Wheather Box",
+                "sum":"Use codePen to practice my CSS.",
+                "int":"Use codePen to practice my CSS."
+            },
+            "Phone":{
+                "name":"Phone",
+                "sum":"Use codePen to practice my Javascript.",
+                "int":"Use codePen to practice my Javascript."
+            },
+            "AppDesign":{
+                "name":"App Design",
+                "sum":"Try to design app UI.",
+                "int":"Try to design app UI."
+            },
+            "Graphic":{
+                "name":"Graphic Design",
+                "sum":"The Profile before I become the Front-end Engineer.",
+                "int":"Graphic Design."
+            }
+        }
+    }
+}

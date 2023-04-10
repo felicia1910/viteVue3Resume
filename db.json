@@ -1,0 +1,13 @@
+{
+	"user": {
+		"isSuccess": true,
+		"data": {
+			"userInfo": {
+				"nickName": "前端測試的人",
+				"marketName": "前端的市場"
+			},
+			"token": "666"
+		},
+		"errorMessage": ""
+	}
+}

@@ -1,0 +1,24 @@
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans+TC);
+@import url(https://use.fontawesome.com/releases/v5.5.0/css/all.css);
+@import url(https://fonts.googleapis.com/css?family=Montserrat&display=swap);
+
+* {
+    /* border:solid 1px; */
+    margin: 0;
+    padding: 0;
+    font-family: 微軟正黑體;
+    text-decoration: none;
+    list-style: none;
+}
+
+.body {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    min-width: 385px;
+}
+
+
+// 載入設計提供的樣式
+@import "./reset.css";
+@import "./all.scss";

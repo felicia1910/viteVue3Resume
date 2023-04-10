@@ -1,0 +1,49 @@
+*{
+    box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+}
+
+html, body{
+    margin:0;
+    padding:0;
+    width: 100%;
+    overflow-x: hidden;
+    font-family: "微軟正黑體", "STHeitiTC", Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+body{
+    min-width: 375px;
+}
+
+h1, h2, h3, h4, h5, h6, div, p, header, footer, aside, article, section, blockquote, row, col-1, col-2, col-3, col-4, col-5, col-6, col-7, col-8, col-9, col-10, col-11, col-12{
+    margin:0;
+    padding:0;
+}
+
+h1, h2, h3, h4, h5, h6{
+	line-height: normal;
+}
+
+a:link, a:visited, a:hover{
+    text-decoration: none;
+}
+
+.disabled, .disabled a{
+    display: none;
+}
+
+.box-reset{
+    margin: 0;
+    padding: 0;
+}
+
+/*--------------------------------------------------------------*/
+
+/*----------------------------------------------------*/
+.w-100pa{
+    width: 100%;
+}
+.text-center{
+    width: 100%;
+    text-align: center;
+}

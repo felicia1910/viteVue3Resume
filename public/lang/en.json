@@ -1,0 +1,632 @@
+{
+    "other": {
+        "numberRes": "number of search results"
+    },
+    "routerData": {
+        "HomePage": "Home Page",
+        "MemberProfile": "Member Profile",
+        "RedemptionandRewards": "Rewards Redepmption",
+        "RedemptionReport": "Rewards Redepmption Report",
+        "Redemptionfunction": "Redemption function",
+        "ShopContactPersons": "Shop Contact Information",
+        "CarParkFunction": "Car Park (Redemption and Benefit)",
+        "ValetparkingFunction": "Valet parking Function",
+        "PointManagment": "Points Registration",
+        "FacilitiesManagment": "Facilities Management",
+        "EventandExperience": "Event and Experience",
+        "MissionManagment": "Mission",
+        "CaseManagement": "Case Management",
+        "TenantsProfile": "Tenants Profile"
+    },
+    "routerPage": {
+        "MemberProfile": {
+            "SearchMemberProfile": "Search member information",
+            "MemberRegistration": "Member Registration",
+            "MemberInformation": "Member information"
+        },
+        "RedemptionandRewards": {
+            "CouponsRedemption": "Rewards Redemption",
+            "Rewardlist": "All Rewards",
+            "BenfitsDiscountPrivileges": "Discount & Privileges"
+        },
+        "Redemptionfunction": {
+            "CouponsRedemption": "Coupons Redemption",
+            "ProductInventory&Replenishment": "Product inventory & Replenishment"
+        },
+        "PointManagment": {
+            "PointRegistration": "Point Registration",
+            "Approval": "Approval",
+            "Histroy": "Histroy",
+            "PointAdjustment": "Point Adjustment"
+        },
+        "CarPark": {
+            "MemberCoupons": "Member Coupons",
+            "MemberID": "Member ID / Tier"
+        },
+        "Valetparking": {
+            "MemberCoupons": "Member Coupons",
+            "MemberID": "Member ID / Tier"
+        },
+        "MissionManagment": {
+            "MissionRegister": "Mission Register/Update",
+            "MissionList": " Mission List",
+            "Attendance": "Attendance",
+            "MemberHistory": "Member History"
+        }
+    },
+    "connet": {
+        "text": "Connection Status",
+        "isSuccess": "Success",
+        "isFalse": "False"
+    },
+    "lang": {
+        "text": "Language",
+        "en": "English",
+        "tw": "Trandition Chinese"
+    },
+    "location": {
+        "text": "Location"
+    },
+    "button": {
+        "save": "Save",
+        "edit": "Edit",
+        "resetPassword": "Reset Password",
+        "back": "Back",
+        "submit": "Submit",
+        "reset": "Reset",
+        "yes": "Yes",
+        "no": "No",
+        "ok": "OK",
+        "scan": "Scan",
+        "delete": "Delete",
+        "deleteAll": "Delete all",
+        "confirmPoint": "Confirm",
+        "confirm": "Confirm",
+        "choose": "Choose",
+        "select": "Select",
+        "selected": "Selected",
+        "upload": "Upload",
+        "retry": "Retry",
+        "cancel": "Cancel",
+        "image": "Image",
+        "camera": "Camera",
+        "getPhoto": "Get Photo",
+        "furtherReview": "Further Review",
+        "yesSubmit": "Yes,Submit",
+        "done": "Done",
+        "verify": "Verify",
+        "clear": "Clear",
+        "next": "Next",
+        "total": "total",
+        "registration": "Registration"
+    },
+    "placeholder": {
+        "input": "Please input",
+        "select": "Please select"
+    },
+    "popValue": {
+        "save": "Save your change?",
+        "saveSuccess": "Save success!",
+        "saveFalse": "Save False!Error message:"
+    },
+    "weekdaysMin": {
+        "sun": "Sunday",
+        "mon": "Monday",
+        "tue": "Tuesday",
+        "wed": "Wednesday",
+        "thu": "Thursday",
+        "fri": "Friday",
+        "sat": "Saturday"
+    },
+    "validators": {
+        "phoneNumber": {
+            "required": "Please input phone number.",
+            "max": "Please input correct phone number."
+        },
+        "chName": {
+            "required": "Please input Chinese Name."
+        },
+        "enName": {
+            "required": "請輸入英文名字。"
+        },
+        "chLastName": {
+            "required": "請輸入中文姓氏。"
+        },
+        "enLastName": {
+            "required": "請輸入英文姓氏。"
+        },
+        "dob": {
+            "required": "請選擇或輸入生日日期。",
+            "block": "輸入規則務必YYYY-MM-DD。"
+        },
+        "email": {
+            "required": "請輸入電郵地址。",
+            "email": "請輸入正確的電郵地址。",
+            "max": "請輸入正確的電郵地址。"
+        },
+        "addressId": {
+            "required": "請選擇地區。"
+        },
+        "districtsid": {
+            "required": "請選擇區域。"
+        },
+        "housingEstatesId": {
+            "required": "請選擇屋邨/屋苑。"
+        },
+        "textForHousingEstate": {
+            "required": "請輸入地址。"
+        },
+        "jobId": {
+            "required": "請選擇職業。"
+        },
+        "incomesId": {
+            "required": "請選擇每月家庭收入。"
+        },
+        "complaintLocationName": {
+            "required": "請選擇反映地點。"
+        },
+        "shopBeRequestedName": {
+            "required": "請輸入被反映商戶名稱。"
+        },
+        "personBeRequested": {
+            "required": "請輸入被反映人名稱。",
+            "max": "請輸入被反映人名稱。"
+        },
+        "descriptonBeRequested": {
+            "required": "請輸入個案撮要。",
+            "max": "請輸入個案撮要。"
+        },
+        "attachedFile": {
+            "size": "請勿超過限制大小。"
+        },
+        "complaintReply": {
+            "required": "請輸入反映個案撮要。"
+        },
+        "complaintStatusName": {
+            "required": "請選擇狀態。"
+        },
+        "suggestionLocationName": {
+            "required": "請選擇意見地點。"
+        },
+        "suggestionShopdName": {
+            "required": "請選擇被建議商戶名稱。"
+        },
+        "suggestionName": {
+            "required": "請輸入被建議人名稱。"
+        },
+        "suggestionDescripton": {
+            "required": "請輸入建議內容撮要。"
+        },
+        "byeReason": {
+            "required": "請輸入終止會籍原因。"
+        },
+        "isAgreeTermination": {
+            "required": "請確定閱讀及同意會員終止會籍之條款及細則。"
+        },
+        "whyChangeCard": {
+            "required": "請選擇領取新會員卡原因。"
+        },
+        "newCardNumber": {
+            "required": "請輸入新卡號號碼。"
+        },
+        "newPhysicalCardId": {
+            "required": "請輸入新卡號號碼。"
+        },
+        "oldPhysicalCardId": {
+            "required": "請輸入卡號號碼。"
+        },
+        "giveJpgCode": {
+            "required": "請確認已經簽名。"
+        },
+        "ageGroups": {
+            "required": "請選擇年齡範圍。"
+        },
+        "Location": {
+            "required": "Please select a location"
+        },
+        "Amount": {
+            "required": "Please enter the amount"
+        },
+        "RegisterDate": {
+            "required": "Please select a date"
+        },
+        "PaymentMethod": {
+            "required": "Please select a method"
+        },
+        "TenantCode": {
+            "required": "Please select a code"
+        },
+        "BusinessUnit": {
+            "required": "Please enter the business unit"
+        },
+        "ReceiptID": {
+            "required": "Please enter the Receipt ID"
+        }
+    },
+    "TenantsProfile": {
+        "field": {
+            "TenantName": "Tenant Name",
+            "ShopAddress": "Shop Address",
+            "Shopcode": "Shop code",
+            "PhoneNo": "Phone No",
+            "Manager": "Manager",
+            "Category": "Category"
+        },
+        "resetPasswordMessage": "A request has been made to reset your password. If you made this request, please click on the button below."
+    },
+    "MemberProfile": {
+        "searchLabel": "Search member information",
+        "field": {
+            "MemberName": "Member name",
+            "MemberID": "member ID",
+            "PhoneNo": "Phone No",
+            "Email": "Email",
+            "Dob": "Date of Birth",
+            "Gender": "Gender",
+            "Status": "Status",
+            "chLastName": "Chinese Last Name",
+            "chName": "Chinese First Name",
+            "enLastName": "English Last Name",
+            "enName": "English First Name",
+            "ageGroups": "Age",
+            "addressId": "City",
+            "districtsid": "District",
+            "housingEstatesId": "Adress 1",
+            "textForHousingEstate": "Adress 2",
+            "jobId": "Occupation",
+            "incomesId": "Income",
+            "point": "Point Balance",
+            "expiryPoint": "Expiry Point",
+            "BusinessUnit": "Business unit",
+            "Shop": "Shop"
+        },
+        "page": {
+            "memberProfile": "Member profile",
+            "transactionHistory": "Transaction History"
+        },
+        "history": {
+            "BusinessUnit": "Business Unit",
+            "Date": "Date",
+            "Time": "Time",
+            "TransactionID": "Transaction ID",
+            "Point": "Point",
+            "Transactionamount": "Transaction amount",
+            "MarketID": "Market ID",
+            "ShopID": "Shop ID",
+            "Approved": "Approved"
+        }
+    },
+    "RedemptionReport": {
+        "page": {
+            "daily": "Daily"
+        },
+        "field": {
+            "Date": "Date",
+            "Filter": "Filter",
+            "MemberID": "Member ID",
+            "TransactionID": "Transaction ID",
+            "Redemptionstatus": "Redemption status ",
+            "Collectionstatus": "Collection status",
+            "Product": "Product"
+        }
+    },
+    "RedemptionRewards": {
+        "Rewardlist": {
+            "field": {
+                "Item": "Item",
+                "Productname": "Product Name",
+                "Quantity": "Quantity",
+                "Point": "Points",
+                "ToTal": "ToTal",
+                "All": "All",
+                "CannotRedeem": "Cannot Redeem",
+                "Available": "Available",
+                "Product": "Product"
+            },
+            "errMes": "Not enough points balance!",
+            "search": "Search",
+            "filter": "Filter",
+            "popValue": {
+                "title": "Confirm",
+                "step1Value": "Sure to confrim?",
+                "step2Value1": "Redemption completed!",
+                "step2Value2": "Point Balance: ",
+                "success": "Success",
+                "false": "Fail"
+            }
+        },
+        "Benfits": {
+            "field": {
+                "Filterlevel1": "Buisness Unit",
+                "Filterlevel2": "Location",
+                "Businessunit": "Buisness Unit",
+                "VVIP": "VVIP",
+                "VIP": "VIP",
+                "Passionate": "Passionate",
+                "Engaged": "Engaged",
+                "Supporters": "Supporters",
+                "Location": "Location"
+            }
+        },
+        "CouponsRedemption": {
+            "text": "Scan member QR code",
+            "alertMes": "",
+            "popValue": {
+                "title": "Rewards Confirmation",
+                "Rewards": "Rewards",
+                "Quantity": "Quantity",
+                "Expirydate": "Expiry date",
+                "Coupontype": "Coupon type",
+                "note": "(conditional/ free)",
+                "success": "Success! Redemption Completed.",
+                "false": "Fail"
+            }
+        }
+    },
+    "Redemptionfunction": {
+        "ProductInventory": {
+            "field": {
+                "Rewards": "Rewards",
+                "ShopName": "Shop Name",
+                "Invenotry": "Invenotry",
+                "Collected": "Collected",
+                "CurrentBalance": "Current Balance"
+            }
+        }
+    },
+    "CarPark": {
+        "alertMes": "If member via spending enjoy car park benefits. Please don’t use“member coupons” & “Member ID/tier ” function.",
+        "text": "Scan member QR code",
+        "MemberCoupons": {
+            "popValue": {
+                "title": "Rewards Confirmation",
+                "CouponName": "Rewards",
+                "Expirydate": "Expiry date",
+                "Coupontype": "Coupon type",
+                "MemberID": "Member ID",
+                "RedemptionHours": "Redemption Hours",
+                "success": "Success! Scan Completed.",
+                "false": "Fail"
+            }
+        },
+        "MemberID": {
+            "popValue": {
+                "title": "Rewards Confirmation",
+                "MemberType": "Member Type",
+                "RemainingHours": "Remaining hours per week",
+                "Coupontype": "Coupon type",
+                "MemberID": "Member ID",
+                "RedemptionHours": "Redemption Hours",
+                "success": "Success! Completed.",
+                "false": "Fail"
+            }
+        }
+    },
+    "ValetParking": {
+        "alertMes": "If member via spending enjoy car park benefits. Please don’t use“member coupons” & “Member ID/tier ” function.",
+        "text": "Scan member QR code",
+        "MemberCoupons": {
+            "popValue": {
+                "title": "Rewards Confirmation",
+                "CouponName": "Rewards",
+                "Expirydate": "Expiry date",
+                "Coupontype": "Coupon type",
+                "MemberID": "Member ID",
+                "RedemptionHours": "Redemption Hours",
+                "success": "Success! Scan Completed.",
+                "false": "Fail"
+            }
+        },
+        "MemberID": {
+            "popValue": {
+                "title": "Rewards Confirmation",
+                "MemberType": "Member Type",
+                "RemainingHours": "Remaining hours per week",
+                "Coupontype": "Coupon type",
+                "MemberID": "Member ID",
+                "RedemptionHours": "Redemption Hours",
+                "success": "Success! Completed.",
+                "false": "Fail"
+            }
+        }
+    },
+    "PointManagment": {
+        "PointRegistration":{
+            "field": {
+                "Name":"Name",
+                "Phoneno":"Phone no",
+                "MemberID": "Member ID",
+                "Location": "Location",
+                "Amount": "Amount",
+                "RegisterDate": "Register Date",
+                "PaymentMethod": "Payment Method",
+                "TenantCode": "Tenant Code",
+                "BusinessUnit": "Business Unit",
+                "ReceiptID":"Receipt ID"
+            },
+            "alertTitle":{
+                "Chooseuploadmethod":"Choose upload method",
+                "View":"View",
+                "UploadSuccess":"Upload Success",
+                "UploadError":"Upload Error",
+                "RUSure":"Are you sure?",
+                "SubmitFail":"SubmitFail",
+                "SubmitSuccess":"SubmitSuccess"
+            },
+            "showMsg":{
+                "Formatdoesnotmatch":"format does not match",
+                "Default":"Default",
+                "SelectMemberID":"Please select member ID",
+                 "UploadPicture":"Please upload a picture",
+                "AmountUnder":"Amount under $50 NOT allow register",
+                "AmountOver":"Amount over $10000, confirm to submit?",
+                "SubmitSuccess":"point registration request have been submitted!",
+                "NotNumberMsg":"Please enter the number",
+                "moreDay14":"Register Date must not be less than 14 days ago"
+            }
+        },
+        "Approval":{
+            "field": {
+                "Location": "Approval Location",
+                "MemberID":"Member ID"
+            },
+            "alertTitle":{
+                "View":"View",
+                "Confirm":"Confirm"
+              },
+              "showMsg":{
+                "ConfirmReject":"Confirm reject?",
+                "InputReason":"Please input your reason",
+                "ConfirmMsg":"Confirm approval?"
+              },
+            "tableTitle":{
+                "Case":"Case",
+                "DateTime":"Date Time",
+                "TransactionID":"Transaction ID",
+                "RequestID":"Request ID",
+                "Amount":"Amount",
+                "Point":"Point",
+                "MemberID":"Member ID",
+                "Receipt":"Receipt"
+            }
+        },
+        "Histroy":{
+            "field": {
+              "Location": "Location",
+              "MemberID":"Membe ID",
+              "Datetime":"Datetime"
+          },
+            "tableTitle":{
+              "MemberID":"Member ID",
+              "DateTime":"Date Time",
+              "Time":"Time",
+              "Location":"Location",
+              "RequestID":"Request ID",
+              "Point":"Point",
+              "RequestChannel":"Request Channel",
+              "Email":"Email",
+              "Phone":"Phone",
+              "Status":"Status",
+              "RejectReason":"Reject Reason"
+             }
+          },
+        "PointAdjustment":{
+            "field": {
+                "MemberID":"Membe ID"
+            },
+            "alertTitle":{
+                "Confirm":"Confirm"
+              },
+              "showMsg":{
+                "Confirm":"Point Adjusted:",
+                "PointIsNaN":"Please confirm whether all points are numbers"
+              },
+            "tableTitle":{
+                "Date":"Date",
+                "TransactionID":"Transaction ID",
+                "BU":"BU",
+                "Point":"Point",
+                "TenantCode":"Tenant Code",
+                "AddANDDeduct":"Add/Deduct",
+                "Reason":"Reason"
+               }
+          }
+      
+    },
+    "MissionManagment": {
+        "MissionRegister": {
+            "field": {
+                "MissionType": "Mission Type",
+                "MissionName": "Mission Name",
+                "MissionLocation": "Mission Location",
+                "Date": "Date",
+                "Point": "Point",
+                "Quota": "Quota",
+                "MemberTier": "Member Tier",
+                "Status": "Status",
+                "Registration": "Registration",
+                "Name": "Name",
+                "LastName": "Last Name",
+                "Phone": "Phone",
+                "Email": "Eamil",
+                "regAge": "報名年齡",
+                "totalVolunteer": "Total Volunteer"
+            },
+            "tc": "terms and conditions",
+            "popValue": {
+                "registration": {
+                    "title": "Registration",
+                    "content": "Confirm information?",
+                    "success": "Registration Success!",
+                    "false": "Registration Fail"
+                },
+                "cancel": {
+                    "title": "Cancel",
+                    "content": "Sure to cancel?",
+                    "success": "Cancel Success!",
+                    "false": "Cancel Fail"
+                }
+            }
+        },
+        "MissionList": {
+            "field": {
+                "MissionType": "Mission Type",
+                "MissionName": "Mission Name",
+                "MissionLocation": "Mission Location",
+                "Date": "Date",
+                "Point": "Point",
+                "Quota": "Quota",
+                "MemberTier": "Member Tier",
+                "Registration": "Registration"
+            },
+            "tc": "terms and conditions",
+            "popValue": {
+                "total": {
+                    "title": "Total",
+                    "Registered": "Total Registered",
+                    "Cancelled": "Total  Cancelled",
+                    "Completed": "Total  Completed"
+                }
+            }
+        },
+        "Attendance": {
+            "field": {
+                "MissionType": "Mission Type",
+                "MissionName": "Mission Name",
+                "MissionLocation": "Mission Location",
+                "Date": "Date",
+                "Point": "Point",
+                "Quota": "Quota",
+                "MemberTier": "Member Tier",
+                "Status": "Status",
+                "Attended": "Attended"
+            },
+            "popValue": {
+                "attended": {
+                    "title": "Attended",
+                    "content": "Sure to Attended?",
+                    "success": "Attended Success!",
+                    "false": "Attended Fail"
+                }
+            }
+        },
+        "MemberHistory": {
+            "field": {
+                "MissionType": "Mission Type",
+                "MissionName": "Mission Name",
+                "MissionLocation": "Mission Location",
+                "Date": "Date",
+                "Point": "Point",
+                "Quota": "Quota",
+                "MemberTier": "Member Tier",
+                "Status": "Status"
+            }
+        },
+        "MissionDetail":{
+            "field": {
+                "VolunteerRole": "Volunteer Role",
+                "VolunteerAge": "Volunteer Age"
+            }
+        }
+    }
+}

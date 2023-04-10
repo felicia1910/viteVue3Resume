@@ -1,0 +1,62 @@
+$color_red: #e26660;
+$color_blue:#3b4372;
+$color_dark_red:#a35050;
+
+@mixin size($w, $h) {
+    width: $w;
+    height: $h;
+}
+
+@mixin flex($j, $ac) {
+    display: flex;
+    justify-content: $j;
+    align-items: $ac;
+}
+
+@mixin flexCenter {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+@mixin nameInForm($w) {
+    width: $w;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+@mixin anim($name,$num) {
+
+    @keyframes #{$name}{
+        from {
+            width: 0;
+        }
+
+        to {
+            width: $num;
+        }
+    }
+
+    animation-name: $name;
+}
+
+@mixin animate($animation,$duration,$method,$times){
+    animation: $animation $duration $method $times;
+}
+
+@mixin keyframes($name){
+    @keyframes #{$name}{
+        from {
+            width: 0;
+        }
+
+        @content;
+    }
+    
+}
+
+
+.t-red {
+    color: $color_red;
+}

@@ -1,0 +1,41 @@
+{
+  "name": "my-vue-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "json": "json-server --watch db.json",
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.0.10",
+    "axios": "^1.2.3",
+    "dayjs": "^1.11.7",
+    "element-plus": "^2.2.28",
+    "json-server": "^0.17.2",
+    "pinia": "^2.0.29",
+    "pinia-plugin-persist": "^1.0.0",
+    "uuid": "^3.4.0",
+    "vue": "^3.2.45",
+    "vue-axios": "^3.2.4",
+    "vue-i18n": "^9.1.10",
+    "vue-router": "^4.1.6",
+    "yup": "^1.0.0"
+  },
+  "devDependencies": {
+    "@intlify/unplugin-vue-i18n": "^0.9.0",
+    "@types/node": "^18.11.18",
+    "@types/uuid": "^9.0.1",
+    "@vitejs/plugin-vue": "^4.0.0",
+    "node-sass": "^8.0.0",
+    "path-browserify": "^1.0.1",
+    "sass": "^1.57.1",
+    "sass-loader": "^13.2.0",
+    "tsconfig-paths": "^4.1.2",
+    "typescript": "^4.9.3",
+    "vite": "^4.0.0",
+    "vue-tsc": "^1.0.11"
+  }
+}
