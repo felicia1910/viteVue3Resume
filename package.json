@@ -29,6 +29,7 @@
     "@types/node": "^18.11.18",
     "@types/uuid": "^9.0.1",
     "@vitejs/plugin-vue": "^4.0.0",
+    "execa": "^7.1.1",
     "node-sass": "^8.0.0",
     "path-browserify": "^1.0.1",
     "sass": "^1.57.1",
