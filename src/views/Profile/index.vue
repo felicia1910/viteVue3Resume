@@ -16,7 +16,7 @@
         v-show="v.show"
       >
         <div class="itemPic" @click="seeDetail(v)">
-          <img :src="store.imgUrl + v.detail.titlePic" :alt="$t('PicAlt')" />
+          <img :src="store.imgUrl+ '/' + v.detail.titlePic" :alt="$t('PicAlt')" />
         </div>
         <div class="itemTitle">{{ v.name }}</div>
         <div class="itemText">{{ v.summary }}</div>

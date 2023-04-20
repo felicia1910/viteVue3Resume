@@ -28,8 +28,8 @@ export const useStore = defineStore(
     state: (): GlobalState => ({
       clientTest: false,//前端使用假資料測試時的控制處(前端在測試時不強制登陸)
       loading: false,
-      language: 'en',
-      imgUrl:'../../../public/img/'
+      language: 'zh-tw',
+      imgUrl:import.meta.env.VITE_IMG_URL
     }),
     getters: {
     },

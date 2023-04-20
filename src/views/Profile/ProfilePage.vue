@@ -7,7 +7,7 @@
 
     <div class="pigPic">
       <img
-        :src="store.imgUrl + getData.data.detail.titlePic"
+        :src="store.imgUrl+ getData.data.detail.titlePic"
         :alt="$t('PicAlt')"
       />
     </div>
@@ -88,7 +88,7 @@
         >
           <img
             class="pic-small"
-            :src="store.imgUrl + v.name"
+            :src="store.imgUrl+ v.name"
             :alt="$t('PicAlt')"
             @click="openBigPic(v, k)"
           />
@@ -106,7 +106,7 @@
 import router from "@/router";
 import { Profiless } from "@/composition-api";
 import { useStore } from "@/store/index";
-import { reactive, onMounted, ref } from "vue";
+import { reactive, onMounted, ref,watch } from "vue";
 import { useI18n } from "vue-i18n";
 import { Profiles } from "@/common/typeInterface";
 //+++++++++++++++++++++++++++++++++++++
@@ -119,6 +119,13 @@ const getData: {
   data: null | Profiles;
 } = reactive({ data: null });
 const componentsKey = ref(0);
+
+//+++++++++++++++++++++++++++++++++++++
+//watch
+//+++++++++++++++++++++++++++++++++++++
+watch(()=>store.language,()=>{
+  start()
+})
 
 //+++++++++++++++++++++++++++++++++++++++++++++++++++++++
 //function

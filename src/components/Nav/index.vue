@@ -50,7 +50,7 @@ const { forNavWidth } = commons();
 const { t } = useI18n();
 const store = useStore();
 const menuOpen = ref(false);
-const mePic = ref("/ico.png");
+const mePic = ref("ico.png");
 const navItems = reactive([
   { ch: "關於我", en: "About me", name: "About" },
   { ch: "作品集", en: "Portfolio", name: "Profile" },

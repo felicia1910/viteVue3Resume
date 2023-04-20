@@ -28,6 +28,81 @@ export function Profiles() {
 
   const origProfilesData = computed(() => {
     let items = [
+      {
+        name: t("Profile.All.Resume.name"),
+        summary: t("Profile.All.Resume.sum"),
+        key: 'web',
+        show: true,
+        id: 'Resume',
+        detail: {
+          introduce: t("Profile.All.Resume.int"),
+          titlePic: "picResume/titlePic.png",
+          url: '',
+          gitHub: 'https://github.com/felicia1910/viteVue3Resume',
+          used: [
+            { name: 'Ver2.0', work: t("Profile.All.Resume.name"), a: 'https://github.com/felicia1910/Vresume' },
+            { name: 'Ver1.0', work: t("Profile.All.Resume.name"), a: 'https://github.com/felicia1910/resume' },
+            { name: t("Profile.Datail.FrontEnd"), work: 'Vue3/Vite/TypeScript' },
+            { name: t("Profile.Datail.Plugin"), work: 'i18n/element-ui' }
+          ],
+          pics: [],
+          team: null,
+          color: {
+            pic: [{ style: 'background:#e26660' }, { style: 'background:#3b4372' }],
+            text: t("Profile.All.Resume.color")
+          },
+        }
+      },
+      {
+        name: t("Profile.All.Ccg.name"),
+        summary: t("Profile.All.Ccg.sum"),
+        key: 'web',
+        show: true,
+        id: 'Ccg',
+        detail: {
+          introduce: t("Profile.All.Ccg.int"),
+          titlePic: "picCcg/titlePic.png",
+          url: '',
+          gitHub: '',
+          used: [
+            { name: t("Profile.Datail.FrontEnd"), work: 'Vue3/Vite/TypeScript' },
+            { name: t("Profile.Datail.Plugin"), work: 'i18n/element-ui' }
+          ],
+          pics: [
+            { name: 'picCcg/1.png', big: 'picCcg/1.png' },
+            { name: 'picCcg/2.png', big: 'picCcg/2.png' },
+            { name: 'picCcg/3.png', big: 'picCcg/3.png' },
+            { name: 'picCcg/4.png', big: 'picCcg/4.png' },
+            { name: 'picCcg/5.png', big: 'picCcg/5.png' },
+            { name: 'picCcg/6.png', big: 'picCcg/6.png' }
+          ],
+          team: null,
+          color: {
+            pic: [],
+            text: t("Profile.All.Resume.color")
+          },
+        }
+      },
+      {
+        name: t("Profile.All.Yata.name"),
+        summary: t("Profile.All.Yata.sum"),
+        key: 'web',
+        show: true,
+        id: 'Yata',
+        detail: {
+          introduce: t("Profile.All.Yata.int"),
+          titlePic: "picYata/titlePic.png",
+          url: '',
+          gitHub: 'https://github.com/felicia1910/vite-yata-testing',
+          used: [
+            { name: t("Profile.Datail.Online"), work: 'Yata', a: 'https://eshop.yata.hk/' },
+            { name: t("Profile.Datail.FrontEnd"), work: 'React/Redux/Tailwind/Vite/TypeScript/SSR' },
+            { name: t("Profile.Datail.BackEnd"), work: 'API' }],
+          pics: [],
+          team: null,
+          color: null,
+        }
+      },
       //
       {
         name: t("Profile.All.Automated.name"),
@@ -60,12 +135,12 @@ export function Profiles() {
       },
       //
       {
-        name:  t("Profile.All.Form.name"), 
-        summary:  t("Profile.All.Form.sum"), 
+        name: t("Profile.All.Form.name"),
+        summary: t("Profile.All.Form.sum"),
         key: 'test', show: true,
         id: "Form123",
         detail: {
-          introduce:  t("Profile.All.Form.int"),
+          introduce: t("Profile.All.Form.int"),
           titlePic: 'pic13.png',
           url: 'https://felicia1910.github.io/company-samll-demo-vue3/',
           gitHub: 'https://github.com/felicia1910/company-samll-demo-vue3/tree/gh-pages',
@@ -81,8 +156,8 @@ export function Profiles() {
       },
       //
       {
-        name: t("Profile.All.Cloudnifier.name"), 
-        summary: t("Profile.All.Cloudnifier.sum"), 
+        name: t("Profile.All.Cloudnifier.name"),
+        summary: t("Profile.All.Cloudnifier.sum"),
         key: 'web', show: true,
         id: "Cloudnifier",
         detail: {
@@ -112,8 +187,8 @@ export function Profiles() {
       },
       //
       {
-        name: t("Profile.All.Chatroom.name"), 
-        summary: t("Profile.All.Chatroom.sum"), 
+        name: t("Profile.All.Chatroom.name"),
+        summary: t("Profile.All.Chatroom.sum"),
         key: 'test', show: true,
         id: "Chatroom",
         detail: {
@@ -133,8 +208,8 @@ export function Profiles() {
       },
       //
       {
-        name: t("Profile.All.liteOn.name"), 
-        summary: t("Profile.All.liteOn.sum"), 
+        name: t("Profile.All.liteOn.name"),
+        summary: t("Profile.All.liteOn.sum"),
         key: 'web', show: true,
         id: "liteOn",
         detail: {
@@ -228,7 +303,7 @@ export function Profiles() {
           url: 'https://felicia1910.github.io/imitateSmallWeb',
           gitHub: null,
           used: [
-            { name: '臨摹網站: ', work: '經理人商學院', a: 'https://edm.managertoday.com.tw/lead/?_ga=2.61159720.587748734.1544692507-1192771633.1532401977' },
+            { name: t("Profile.Datail.Imitate"), work: '經理人商學院', a: 'https://edm.managertoday.com.tw/lead/?_ga=2.61159720.587748734.1544692507-1192771633.1532401977' },
             { name: t("Profile.Datail.FrontEnd"), work: 'Html5/Css3' },
             { name: t("Profile.Datail.BackEnd"), work: '無' }],
           pics: null,
@@ -245,7 +320,7 @@ export function Profiles() {
           url: 'https://felicia1910.github.io/ps4girl/',
           gitHub: null,
           used: [
-            { name: '臨摹網站: ', work: 'GravityDaze', a: 'https://www.jp.playstation.com/scej/title/gravitydaze/' },
+            { name: t("Profile.Datail.Imitate"), work: 'GravityDaze', a: 'https://www.jp.playstation.com/scej/title/gravitydaze/' },
             { name: t("Profile.Datail.FrontEnd"), work: 'Html5/Css3' },
             { name: t("Profile.Datail.BackEnd"), work: '無' }],
           pics: null,
@@ -262,7 +337,7 @@ export function Profiles() {
           url: 'https://felicia1910.github.io/UISmall/',
           gitHub: null,
           used: [
-            { name: '臨摹網站: ', work: 'livetools', a: 'http://livetools.uiparade.com/' },
+            { name: t("Profile.Datail.Imitate"), work: 'livetools', a: 'http://livetools.uiparade.com/' },
             { name: t("Profile.Datail.FrontEnd"), work: 'Html5/Css3' },
             { name: t("Profile.Datail.BackEnd"), work: '無' }],
           pics: null,
@@ -353,25 +428,25 @@ export function Profiles() {
   })
 
   const profilesData = computed(() => {
-    let items=hadShowProfiles.value;
+    let items = hadShowProfiles.value;
     items = items.slice(page.first, page.first + page.perPage);
 
     return items;
   });
 
   //有SHOW出來的(但可能不在第一頁)
-  const hadShowProfiles=computed(()=>{
+  const hadShowProfiles = computed(() => {
     let items = origProfilesData.value;
 
     items = items.map((e: any) => {
-      console.log('e.key:',filterValue.value==e.key)
+      console.log('e.key:', filterValue.value == e.key)
       return {
         ...e,
         show: filterValue.value == "all" || filterValue.value == e.key,
       };
     });
 
-    items =items.filter((e: any)=>{return e.show})
+    items = items.filter((e: any) => { return e.show })
 
     return items;
   })
@@ -381,5 +456,5 @@ export function Profiles() {
   //++++++++++++++++++++++++++++
 
 
-  return { filterItems,hadShowProfiles,origProfilesData, profilesData, filterValue, page };
+  return { filterItems, hadShowProfiles, origProfilesData, profilesData, filterValue, page };
 }

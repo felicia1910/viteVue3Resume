@@ -22,7 +22,7 @@
                 "text": "Proficient understanding of web markup, including HTML5, PUG, CSS3, SCSS, and javascript."
             },
             "dev":{
-                "name": "React/ Redux/ Node.js/ Vue/ Vuex/ Vite",
+                "name": "React/ Redux/ Node.js/ Vue/ Vuex/ Vite/ TypeScript",
                 "text": "4+ years of experience in various JavaScript frameworks, such as Node, ReactJS, Redux, Vue, Vuex, and familiarity with REST APIs."
             },
             "other":{
@@ -87,6 +87,8 @@
             "Design":"Graphic Design"
         },
         "Datail":{
+            "Online":"Online",
+            "Imitate":"Web Imitate",
             "UI":"UI Design",
             "FrontEnd":"FrontEnd",
             "BackEnd":"BackEnd",
@@ -98,6 +100,23 @@
             "Previous":"Previous Page"
         },
         "All":{
+            "Resume":{
+                "name":"Resume",
+                "sum":"This is the third version of the integrated work from just stepping into this line to the present",
+                "int":"First version didn't use frame work. After I changed my job, I rewrote the VUE2.0 version, this time it is the version of TypeScript+Vue3+Vite.",
+                "color":"In 2018, when I just changed jobs,I used the most popular color was the idea, with dark gray and blue to accentuate the overall visual impression."
+            },
+            "Ccg":{
+                "name":"Chinachem",
+                "sum":"Background system, combined with Dynamics 365 data for customer service use (castrated version)",
+                "int":"For the project that will be launched, the online project login Outh2.0, here only show without front-end part of the function.",
+                "color":"It has been designed with the main color of Chinachem, because it is a backstage system, so it is produced with a simple and refreshing design."
+            },
+            "Yata":{
+                "name":"Yata",
+                "sum":"On-line project, there are only temporary meals and short-term repairs in the middle, and they are taken out again to delete functions and change tools to practice skills of different frameworks.",
+                "int":"The technology used in the original project was React+TS+Redux+Next+Tailwind. Here, VITE is used as the bottom layer again and changed to the SSR webpage of VITE+React+TS+Redux+Tailwind."
+            },
             "Automated":{
                 "name":"FlowChart",
                 "sum":"FlowChart project，User can control this webSide to achieve automation schedule.",
