@@ -62,7 +62,7 @@ export function Profiles() {
         detail: {
           introduce: t("Profile.All.Ccg.int"),
           titlePic: "picCcg/titlePic.png",
-          url: '',
+          url: 'https://felicia1910.github.io/ViewCCG/#/',
           gitHub: '',
           used: [
             { name: t("Profile.Datail.FrontEnd"), work: 'Vue3/Vite/TypeScript' },
@@ -92,7 +92,7 @@ export function Profiles() {
         detail: {
           introduce: t("Profile.All.Yata.int"),
           titlePic: "picYata/titlePic.png",
-          url: '',
+          url: 'https://felicia1910.github.io/ViewYata-React/',
           gitHub: 'https://github.com/felicia1910/vite-yata-testing',
           used: [
             { name: t("Profile.Datail.Online"), work: 'Yata', a: 'https://eshop.yata.hk/' },
